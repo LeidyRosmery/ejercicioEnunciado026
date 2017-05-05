@@ -1,13 +1,15 @@
-.contenedor1 div:nth-child(1){
+.contenedor2 div:nth-child(1){
   background: yellow;
 }
-.contenedor1 div:nth-child(2){
+.contenedor2 div:nth-child(2){
   background: blue;
 }
-.contenedor1 div:nth-child(3){
+.contenedor2 div:nth-child(3){
   background: red;
 }
 div{
   width: 200px;
   height: 200px;
+  float: left;
+
 }
