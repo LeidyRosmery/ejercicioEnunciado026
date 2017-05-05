@@ -1,28 +1,47 @@
-.contenedor3 div:nth-child(1){
-  background: yellow;
-}
 .contenedor3 div:nth-child(2){
-  background: blue;
+  background: yellow;
 }
 .contenedor3 div:nth-child(3){
-  background: red;
-}
-.contenedor2 div:nth-child(1){
-  background: yellow;
-}
-.contenedor2 div:nth-child(2){
   background: blue;
 }
+.contenedor3 div:nth-child(4){
+  background: red;
+}
+.contenedor2 div:nth-child(2){
+  background: yellow;
+}
 .contenedor2 div:nth-child(3){
+  background: blue;
+}
+.contenedor2 div:nth-child(4){
+  background: red;
+}
+.contenedor1 div:nth-child(2){
+  background: yellow;
+}
+.contenedor1 div:nth-child(3){
+  background: blue;
+}
+.contenedor1 div:nth-child(4){
   background: red;
 }
 div{
   width: 200px;
   height: 200px;
-float: right;
 }
 .contenedor2 div{
 
   float: left;
 
+}
+.contenedor3 div {
+  float: right;
+}
+section {
+  border: 1px solid black;
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
