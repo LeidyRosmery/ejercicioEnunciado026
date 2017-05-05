@@ -7,7 +7,21 @@
 .contenedor1 div:nth-child(3){
   background: red;
 }
+.contenedor2 div:nth-child(1){
+  background: yellow;
+}
+.contenedor2 div:nth-child(2){
+  background: blue;
+}
+.contenedor2 div:nth-child(3){
+  background: red;
+}
 div{
   width: 200px;
   height: 200px;
+}
+.contenedor2 div{
+
+  float: left;
+
 }
